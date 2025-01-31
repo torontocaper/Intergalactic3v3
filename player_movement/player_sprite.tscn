@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://c16xtx61idprm"]
 
-[ext_resource type="Texture2D" uid="uid://j70ekmxmq7ke" path="res://player_movement/alien-1.png" id="1_22xr7"]
+[ext_resource type="Texture2D" uid="uid://cnma7812lrhq3" path="res://player_movement/green-zombie.png" id="1_c4pox"]
 
 [sub_resource type="Animation" id="Animation_0rkar"]
 resource_name = "idle"
@@ -59,7 +59,7 @@ _data = {
 }
 
 [node name="PlayerSprite" type="Sprite2D"]
-texture = ExtResource("1_22xr7")
+texture = ExtResource("1_c4pox")
 hframes = 4
 vframes = 3
 

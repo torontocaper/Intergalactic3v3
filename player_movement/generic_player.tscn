@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://byirsqvvip3ex"]
+
+[ext_resource type="PackedScene" uid="uid://c16xtx61idprm" path="res://player_movement/player_sprite.tscn" id="1_wv32f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_louw3"]
+size = Vector2(10, 15)
+
+[node name="GenericPlayer" type="CharacterBody2D"]
+
+[node name="PlayerSprite" parent="." instance=ExtResource("1_wv32f")]
+
+[node name="PlayerCollider" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4.5)
+shape = SubResource("RectangleShape2D_louw3")
+
+[node name="PlayerCamera" type="Camera2D" parent="."]
