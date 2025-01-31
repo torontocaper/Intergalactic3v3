@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://byirsqvvip3ex"]
+[gd_scene load_steps=4 format=3 uid="uid://byirsqvvip3ex"]
 
+[ext_resource type="Script" path="res://player_movement/generic_player.gd" id="1_iny84"]
 [ext_resource type="PackedScene" uid="uid://c16xtx61idprm" path="res://player_movement/player_sprite.tscn" id="1_wv32f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_louw3"]
 size = Vector2(10, 15)
 
 [node name="GenericPlayer" type="CharacterBody2D"]
+script = ExtResource("1_iny84")
 
 [node name="PlayerSprite" parent="." instance=ExtResource("1_wv32f")]
 
@@ -14,3 +16,4 @@ position = Vector2(0, 4.5)
 shape = SubResource("RectangleShape2D_louw3")
 
 [node name="PlayerCamera" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
