@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhuf3d8vdxarr"]
+
+[ext_resource type="PackedScene" uid="uid://brs7dk5e7jtfj" path="res://player_movement/court_floor_isometric.tscn" id="1_awf3s"]
+[ext_resource type="PackedScene" uid="uid://byirsqvvip3ex" path="res://player_movement/generic_player.tscn" id="2_mbnhn"]
+
+[node name="MovementTestIso" type="Node2D"]
+
+[node name="CourtFloorIsometric" parent="." instance=ExtResource("1_awf3s")]
+
+[node name="GenericPlayer" parent="." instance=ExtResource("2_mbnhn")]

@@ -8,4 +8,4 @@
 [node name="CourtFloor" parent="." instance=ExtResource("1_cf051")]
 
 [node name="GenericPlayer" parent="." instance=ExtResource("2_rdki5")]
-position = Vector2(126, 85)
+position = Vector2(8, 1)
