@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://j70ekmxmq7ke"
-path="res://.godot/imported/alien-1.png-421a8312b374bf19fafddc66f77197be.ctex"
+uid="uid://cnma7812lrhq3"
+path="res://.godot/imported/green-zombie.png-fa7e3cdd441dc3ea9feec6af8e44e85c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player_movement/alien-1.png"
-dest_files=["res://.godot/imported/alien-1.png-421a8312b374bf19fafddc66f77197be.ctex"]
+source_file="res://workspace/green-zombie.png"
+dest_files=["res://.godot/imported/green-zombie.png-fa7e3cdd441dc3ea9feec6af8e44e85c.ctex"]
 
 [params]
 

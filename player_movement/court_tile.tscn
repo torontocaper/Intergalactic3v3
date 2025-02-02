@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://civ16ytuoc756"]
-
-[ext_resource type="Texture2D" uid="uid://du5tdl6lihqyp" path="res://player_movement/parquet_square_16_border_tiny_squares.png" id="1_pw6ab"]
-
-[node name="CourtTile" type="Sprite2D"]
-texture = ExtResource("1_pw6ab")

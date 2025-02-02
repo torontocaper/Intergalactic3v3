@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=4 uid="uid://dyodygrr5mrs0"]
 
-[ext_resource type="PackedScene" uid="uid://civ16ytuoc756" path="res://player_movement/court_tile.tscn" id="1_b4osn"]
+[ext_resource type="PackedScene" uid="uid://civ16ytuoc756" path="res://workspace/court_tile.tscn" id="1_b4osn"]
 
 [sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_ektxb"]
 scenes/1/scene = ExtResource("1_b4osn")

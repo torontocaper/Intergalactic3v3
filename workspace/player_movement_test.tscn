@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://byqkbi5lc4nxx"]
 
-[ext_resource type="PackedScene" uid="uid://dyodygrr5mrs0" path="res://player_movement/court_floor.tscn" id="1_cf051"]
-[ext_resource type="PackedScene" uid="uid://byirsqvvip3ex" path="res://player_movement/generic_player.tscn" id="2_rdki5"]
+[ext_resource type="PackedScene" uid="uid://dyodygrr5mrs0" path="res://workspace/court_floor.tscn" id="1_cf051"]
+[ext_resource type="PackedScene" uid="uid://byirsqvvip3ex" path="res://workspace/generic_player.tscn" id="2_rdki5"]
 
 [node name="PlayerMovementTest" type="Node2D"]
 

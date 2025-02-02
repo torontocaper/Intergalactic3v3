@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=4 uid="uid://brs7dk5e7jtfj"]
 
-[ext_resource type="Texture2D" uid="uid://h1v6gm781pg0" path="res://player_movement/parquet-iso-1.png" id="1_r4qit"]
-[ext_resource type="Script" path="res://player_movement/court_floor_isometric.gd" id="2_8extl"]
+[ext_resource type="Texture2D" uid="uid://h1v6gm781pg0" path="res://workspace/parquet-iso-1.png" id="1_r4qit"]
+[ext_resource type="Script" path="res://workspace/court_floor_isometric.gd" id="2_8extl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yacg5"]
 texture = ExtResource("1_r4qit")

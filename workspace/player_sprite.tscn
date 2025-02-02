@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://c16xtx61idprm"]
 
-[ext_resource type="Texture2D" uid="uid://cnma7812lrhq3" path="res://player_movement/green-zombie.png" id="1_c4pox"]
+[ext_resource type="Texture2D" uid="uid://cnma7812lrhq3" path="res://workspace/green-zombie.png" id="1_c4pox"]
 
 [sub_resource type="Animation" id="Animation_nqkg1"]
 length = 0.001

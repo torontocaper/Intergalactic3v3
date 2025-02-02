@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6xsf3xkarcb7"
-path="res://.godot/imported/parquet_square_16.png-cc23e7130f64b4c51de40a8bdcfb62f1.ctex"
+uid="uid://j70ekmxmq7ke"
+path="res://.godot/imported/alien-1.png-62efc1ef081d6aad1b1d5eb2d326117f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player_movement/parquet_square_16.png"
-dest_files=["res://.godot/imported/parquet_square_16.png-cc23e7130f64b4c51de40a8bdcfb62f1.ctex"]
+source_file="res://workspace/alien-1.png"
+dest_files=["res://.godot/imported/alien-1.png-62efc1ef081d6aad1b1d5eb2d326117f.ctex"]
 
 [params]
 
