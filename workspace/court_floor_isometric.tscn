@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://brs7dk5e7jtfj"]
+[gd_scene load_steps=6 format=4 uid="uid://brs7dk5e7jtfj"]
 
 [ext_resource type="Texture2D" uid="uid://h1v6gm781pg0" path="res://workspace/parquet-iso-1.png" id="1_r4qit"]
 [ext_resource type="Script" path="res://workspace/court_floor_isometric.gd" id="2_8extl"]
+[ext_resource type="Script" path="res://workspace/clicked_polygon.gd" id="3_p3nw3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yacg5"]
 texture = ExtResource("1_r4qit")
@@ -22,3 +23,9 @@ script = ExtResource("2_8extl")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(4, 4)
+
+[node name="ClickedPolygon" type="Polygon2D" parent="."]
+z_index = 10
+script = ExtResource("3_p3nw3")
+
+[connection signal="clicked" from="." to="ClickedPolygon" method="_on_court_floor_isometric_clicked"]
