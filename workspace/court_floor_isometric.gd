@@ -7,7 +7,7 @@ var clicked_polygon_points : PackedVector2Array
 var map_position : Vector2
 @export var hover_polygon_points : PackedVector2Array
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	var hover_position_local := get_local_mouse_position()
 	var hover_position_map := local_to_map(hover_position_local)
 	hover_polygon_points = PackedVector2Array([
