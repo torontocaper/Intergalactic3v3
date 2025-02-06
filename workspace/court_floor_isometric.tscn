@@ -29,9 +29,9 @@ zoom = Vector2(4, 4)
 z_index = 10
 script = ExtResource("3_p3nw3")
 
-[node name="HoveredPolygon" type="Node2D" parent="."]
+[node name="HoveredPolyline" type="Line2D" parent="."]
 z_index = 100
 script = ExtResource("4_u0gnw")
 
 [connection signal="clicked" from="." to="ClickedPolygon" method="_on_court_floor_isometric_clicked"]
-[connection signal="hovered" from="." to="HoveredPolygon" method="_on_court_floor_isometric_hovered"]
+[connection signal="hovered" from="." to="HoveredPolyline" method="_on_court_floor_isometric_hovered"]
