@@ -16,6 +16,7 @@ func _process(_delta: float) -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.is_pressed() and event.button_index == 1:
 		click_position_map = local_to_map(get_local_mouse_position())
+		print_debug("You clicked a tile at point " + str(click_position_map))
 		clicked_polygon_points = _make_polygon(click_position_map)
 		clicked.emit(clicked_polygon_points)
 
