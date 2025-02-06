@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://du5tdl6lihqyp"
-path="res://.godot/imported/parquet_square_16_border_tiny_squares.png-4ae784fe6649297a7f7c0707f4ada754.ctex"
+uid="uid://bq5vt7267o3tn"
+path="res://.godot/imported/parquet_square_16_border.png-16c2090321e0acb11cd22d78143e3ca2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://workspace/parquet_square_16_border_tiny_squares.png"
-dest_files=["res://.godot/imported/parquet_square_16_border_tiny_squares.png-4ae784fe6649297a7f7c0707f4ada754.ctex"]
+source_file="res://spares/parquet_square_16_border.png"
+dest_files=["res://.godot/imported/parquet_square_16_border.png-16c2090321e0acb11cd22d78143e3ca2.ctex"]
 
 [params]
 
